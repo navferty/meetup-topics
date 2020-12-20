@@ -43,6 +43,8 @@
 * Добавление нового поля, применение миграции с изменениями
 * Экспорт миграций в SQL файл
 
+[Код проекта](https://github.com/navferty/DeserializationSample)
+
 Заметки для себя:
 * Продемонстрировать ошибку при попытке создания миграции, когда отсутствует первичный ключ у сущностей.
 Рассказать о необходимости первичного ключа (свойство с именем Id).
@@ -55,7 +57,6 @@
 * [Getting Started with EF Core](https://docs.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli)
 * [metanit - Первое приложение на EF Core](https://metanit.com/sharp/entityframeworkcore/1.2.php)
 * [Примеры XML на w3schools](https://www.w3schools.com/xml/xml_examples.asp)
-* [Код проекта](https://github.com/navferty/DeserializationSample)
 
 ## Создание надстройки для MS Excel на VSTO
 
@@ -67,7 +68,7 @@
 
 ![Надстройка с кастомной лентой](https://github.com/navferty/NavfertyExcelAddIn/raw/master/images/NavfertyToolsRibbonEn.png)
 
-## Использование MS SQL и PostgreSQL в одном проекте: как усидеть на двух стульях
+## Усидеть на двух стульях: использование MS SQL и PostgreSQL в одном проекте
 
 Мы на своем проекте используем подход code-first при проектировании БД. Это мейнстрим для приложений, использующих Entity Framework Core.
 В силу того, что разные заказчики нашего проекта используют разные СУБД, нам приходится параллельно поддерживать схему БД и для MS SQL Server, и для PostgreSQL.
